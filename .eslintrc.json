@@ -24,7 +24,8 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": "off",
     // "react/self-closing-comp": "warn",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "import/prefer-default-export": "off"
   },
   "settings": {
     "import/resolver": {
