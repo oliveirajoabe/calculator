@@ -1,11 +1,14 @@
-import Button from "./components/Button";
+import { ThemeProvider } from "styled-components";
+import GlobalStyled from "./commons/styles/global";
+import theme from "./commons/styles/theme";
+import Calculator from "./pages/Calculator";
 
 function App() {
   return (
-    <>
-      <h1>App component</h1>
-      <Button text="teste" />
-    </>
+    <ThemeProvider theme={theme}>
+      <Calculator />
+      <GlobalStyled />
+    </ThemeProvider>
   );
 }
 
